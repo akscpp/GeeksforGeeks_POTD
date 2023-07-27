@@ -1,0 +1,18 @@
+char firstRep (string s)
+    {
+        //code here.
+        int n=s.length();
+        unordered_map<char,int>mp;
+        int mini=1e9;
+        for(int i=0;i<n;i++){
+            if(mp.find(s[i])!=mp.end()){
+                mini=min(mini,mp[s[i]]);
+            }else{
+                mp[s[i]]=i;
+            }
+        }
+        if(mini==1e9){
+            return '#';
+        }
+        return s[mini];
+    }
