@@ -1,0 +1,45 @@
+#include<bits/stdc++.h>
+using namespace std;
+string removeDuplicateLetters(string s) {
+        stack<char>st;
+        vector<int>count(26,0);
+        vector<bool>visited(26,false);
+        for(int i=0;i<s.length();i++){
+            count[s[i]-'a']++;
+        }
+
+        for(int i=0;i<s.length();i++){
+            if(visited[s[i]-'a']==true){
+                count[s[i]-'a']--;
+                continue;
+            }
+
+            while(!st.empty() && s[i]>st.top() && count[st.top()-'a']>0){
+                visited[st.top()-'a']=false;
+                st.pop();
+            }
+
+            st.push(s[i]);
+            visited[s[i]-'a']=true;
+            count[s[i]-'a']--;
+        }
+
+        string ans="";
+        while(!st.empty()){
+            ans.push_back(st.top());
+            st.pop();
+        }
+
+        reverse(ans.begin(),ans.end());
+        return ans;
+        
+    }
+    
+    int main(){
+        string s;
+        cin>>s;
+        cout<<removeDuplicateLetters(s);
+        return 0;
+    }
+    
+    
