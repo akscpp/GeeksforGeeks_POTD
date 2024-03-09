@@ -8,6 +8,7 @@ r = 2
 n = 3
 Output:
 1
+
 Explanation: 
 After 1st iteration s becomes "10100101".
 After 2nd iteration s becomes "1001100101100110".
@@ -20,6 +21,7 @@ r = 1
 n = 2
 Output:
 0
+
 Explanation : 
 After 1st iteration s becomes "10011001".
 Now, we can clearly see that the character at 2nd index is 0, and so the output.
