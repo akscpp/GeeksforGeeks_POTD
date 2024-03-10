@@ -27,7 +27,7 @@ Constraints:<br>
 String contains uppercase and lowercase english letters.<br>
 
 
-_Intuition -> Use a map to keep track of letters. Initially , initialise the keys of letter in map as -1 . Then , while traversing string , if string key has -1 , include it in answer and update the value of the corresponding string key as 0.We will only add the string in the answer if the value of the key is -1 , else we ignore the element.__
+_Intuition -> Use a map to keep track of letters. Initially , initialise the keys of letter in map as -1 . Then , while traversing string , if string key has -1 , include it in answer and update the value of the corresponding string key as 0.We will only add the string in the answer if the value of the key is -1 , else we ignore the element._
 
 ```C++
 string removeDuplicates(string str) {
