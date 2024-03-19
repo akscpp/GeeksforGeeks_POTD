@@ -43,6 +43,8 @@ edges[i][0] != edges[i][1]<br>
 
 __Intuition -> Use concept of Disjoint Sets ( Find by Compression and Union) . Use map to store (weight,size of disjoint sets).__
 
+_Read comments in code for better understanding_
+
 ```C++
 int ans;
     vector<int> parent;
