@@ -1,4 +1,4 @@
-[Problem Link](https://www.geeksforgeeks.org/problems/kth-common-ancestor-in-bst/1)>br>
+[Problem Link](https://www.geeksforgeeks.org/problems/kth-common-ancestor-in-bst/1)<br>
 Given a BST with n (n>=2) nodes, find the kth common ancestor of nodes x and y in the given tree. Return -1 if kth ancestor does not exist.<br>
 
 Nodes x and y will always be present in the input of a BST, and x != y.<br>
