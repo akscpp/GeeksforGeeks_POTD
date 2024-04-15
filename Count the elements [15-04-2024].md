@@ -35,6 +35,15 @@ For 3rd query and 4th query, the given index is 2 and 3 respectively, a[2] = a[3
 Your Task:<br>
 You don't need to take any input, as it is already accomplished by the driver code. You just need to complete the function countElements() that takes array a and b of size n, and array query of size q as parameters and returns an array that contains the answer to the corresponding queries. <br>
 
+Expected Time Complexity: O(n+q).<br>
+Expected Auxiliary Space: O(maximum of a and b).<br>
+
+Constraints:<br>
+1 ≤ q ≤ n ≤ 10^5<br>
+1 ≤ a[i], b[i] ≤ 10^5<br>
+0 ≤ query[i] < n<br>
+
+
 __Intuition -> Maintain a hash array. Use that to store count of elements of b. Now , to store count of elements less than or equal to current element , add the previous count to current count while iterating through the hash count array. At last , iterate over the query array and find the count of elements less than or equal to current index element.__
 
 ```C++
@@ -67,10 +76,3 @@ vector<int> countElements(vector<int> &a, vector<int> &b, int n, vector<int> &qu
     }
 ```
 
-Expected Time Complexity: O(n+q).
-Expected Auxiliary Space: O(maximum of a and b).
-
-Constraints:
-1 ≤ q ≤ n ≤ 105
-1 ≤ a[i], b[i] ≤ 105
-0 ≤ query[i] < n
