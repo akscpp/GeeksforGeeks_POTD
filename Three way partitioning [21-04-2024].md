@@ -39,7 +39,7 @@ Constraints:<br>
 1 <= n <= 10^6<br>
 1 <= array[i], a, b <= 10^9<br>
 
-__Intuition ->Use DNF (Dutch National Flag Algorithm). Use three points to partition the array into 3 parts.__
+__Intuition ->Use DNF (Dutch National Flag Algorithm). Use three pointers to partition the array into 3 parts.__
 
 ```C++
 void threeWayPartition(vector<int>& arr,int a, int b)
