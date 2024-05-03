@@ -2,33 +2,10 @@
 
 Given a binary tree having n nodes and an integer k. Print all nodes that are at distance k from the root (root is considered at distance 0 from itself). Nodes should be printed from left to right.<br>
 
-Example 1:<br>
+![image](https://github.com/akscpp/GeeksforGeeks_POTD/assets/129672950/5cc61ef6-8e89-4f5b-b5b8-2b8a40b1a6cf)
 
-Input:<br>
-k = 0<br>
-      1<br>
-    /   \ <br>
-   3     2<br>
-Output: 
-1<br>
-Explanation: 
-1 is the only node which is 0 distance from the root 1.<br>
-Example 2:<br>
+![image](https://github.com/akscpp/GeeksforGeeks_POTD/assets/129672950/39036b22-3881-418e-be8e-5df9a2e7551f)
 
-Input:<br>
-k = 3<br>
-        1<br>
-       / <br>
-      2<br>
-       \ <br>
-        1<br>
-      /  \ <br>
-     5    3<br>
-Output: 
-5 3<br>
-Explanation:  
-5 and 3 are the nodes which are at distance 3 from the root 3.<br>
-Here, returning 3 5 will be incorrect.<br>
 Your Task:
 You don't have to take input. Complete the function Kdistance() that accepts root node and k as parameters and returns the value of the nodes that are at a distance k from the root.<br>
 
