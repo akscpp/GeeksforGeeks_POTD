@@ -3,6 +3,8 @@ Given inorder and postorder traversals of a binary tree(having n nodes) in the a
 
 Driver code will print the preorder traversal of the constructed tree.<br>
 ![image](https://github.com/akscpp/GeeksforGeeks_POTD/assets/129672950/939f0747-0286-4c88-b211-61d217afd94a)
+![image](https://github.com/akscpp/GeeksforGeeks_POTD/assets/129672950/633a3fc5-aa07-4c40-90cd-952110e830b4)
+
 
 
 
