@@ -2,9 +2,9 @@
 Given inorder and postorder traversals of a binary tree(having n nodes) in the arrays in[] and post[] respectively. The task is to construct a binary tree from these traversals.<br>
 
 Driver code will print the preorder traversal of the constructed tree.<br>
-![image](https://github.com/akscpp/GeeksforGeeks_POTD/assets/129672950/aa77832d-71c1-4c97-b327-b5f2f9001b93)<br>
+![image](https://github.com/akscpp/GeeksforGeeks_POTD/assets/129672950/939f0747-0286-4c88-b211-61d217afd94a)
 
-![image](https://github.com/akscpp/GeeksforGeeks_POTD/assets/129672950/23c5c3fc-8393-4dad-82d2-2563cdaa29f1)<br>
+
 
 
 Your Task:<br>
