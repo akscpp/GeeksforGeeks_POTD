@@ -18,7 +18,7 @@ Constraints:<br>
 1<=n<=10^4<br>
 1<= Node value <= 10^5<br>
 
-__Intuition -> Use BFS. When storing the nodes in queue , also store their corresponding vertical level (root=0 , root left = 0 - 1 . root right = 0 + 1.Store these in map. This will sum the nodes at same vertical level.__
+__Intuition -> Use BFS. When storing the nodes in queue , also store their corresponding vertical level (root=0 , root left = 0 - 1 . root right = 0 + 1).Store these in map. This will sum the nodes at same vertical level.__
 
 ```C++
 vector <int> verticalSum(Node *root) {
