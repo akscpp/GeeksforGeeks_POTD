@@ -15,3 +15,20 @@ Expected Auxiliary Space: O(1)<br>
 Constraints:<br>
 1<= no. of nodes <=10^5<br>
 1<= data of the node <=10^5<br>
+
+__Intuition ->Maintain a prev pointer and try to create a threaded binary tree.__
+
+```C++
+Node* prev = NULL;
+    void populateNext(Node *root) {
+        if(!root) return;
+        populateNext(root->left);
+        if(prev==NULL){
+            prev = root;
+        }else{
+            prev->next = root;
+            prev = root;
+        }
+        populateNext(root->right);
+    }
+```
