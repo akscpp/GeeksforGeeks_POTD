@@ -6,9 +6,6 @@ After merging the accounts, return the accounts in the following format: The fir
 Note: Accounts themselves can be returned in  any 
 order.<br>
 
-
-
-
 Example 1:<br>
 
 Input:
