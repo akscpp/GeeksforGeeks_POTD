@@ -7,6 +7,8 @@ Geek wants you to merge these accounts. Two accounts belong to the same person i
 
 After merging the accounts, return the accounts in the following format: The first element of each account is the name, and the rest of the elements are emails in sorted order.   
 
+
+
 Note: Accounts themselves can be returned in  any 
 order.<br>
 
