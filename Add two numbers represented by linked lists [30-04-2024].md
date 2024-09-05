@@ -7,10 +7,6 @@ Note: There can be leading zeros in the input lists, but there should not be any
 
 
 
-
-
-
-
 Example 1:<br>
 
 Input:<br>
