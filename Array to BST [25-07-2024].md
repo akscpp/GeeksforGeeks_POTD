@@ -8,6 +8,7 @@ Note: The driver code will check the BST, if it is a Height-balanced BST, the ou
 
 ![image](https://github.com/user-attachments/assets/0aa7cc1d-7ed8-4a1b-bbd5-ca33b9555de2)<br>
 
+
 Expected Time Complexity: O(n)<br>
 Expected Auxillary Space: O(n)<br>
 
