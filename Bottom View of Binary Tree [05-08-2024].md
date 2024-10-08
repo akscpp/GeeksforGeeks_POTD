@@ -8,8 +8,6 @@ Note: If there are multiple bottom-most nodes for a horizontal distance from the
 
 
 
-
-
 Expected Time Complexity: O(n)<br>
 Expected Auxiliary Space: O(n)<br>
 
