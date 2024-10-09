@@ -6,6 +6,7 @@ Note: Please check the intersection lies within the line segments.<br>
 
 Examples<br>
 
+
 Input: p1=(1,1), q1=(10,1), p2=(1,2), q2=(10,2)<br>
 Output: false<br>
 Explanation:The two line segments formed by p1-q1 and p2-q2 do not intersect.<br>
