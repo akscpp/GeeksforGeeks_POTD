@@ -7,6 +7,8 @@ Input:
 s = "16"
 Output:
 1
+
+
 Explanation:
 The given number is divisible by 8,
 so the driver code prints 1 as the output.
