@@ -13,6 +13,8 @@ Explanation:
 After rearranging the input linked list according to the condition the resultant linked list will be as shown in output.<br>
 Example 2:<br>
 
+
+
 Input:
 n = 8<br>
 linked list: a -> b -> a -> b -> d -> e -> e -> d <br>
