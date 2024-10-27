@@ -7,6 +7,8 @@ vector <int> bottomView(Node *root) {
         while(!q.empty()){
             int count=q.size();
             for(int i=0;i<count;i++){
+
+
                 auto p = q.front();
                 q.pop();
                 Node *curr=p.first;
