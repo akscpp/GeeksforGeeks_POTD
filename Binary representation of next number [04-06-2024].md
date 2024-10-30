@@ -8,6 +8,7 @@ Output: 11<br>
 Explanation: "10" is the binary representation of 2 and binary representation of 3 is "11"<br>
 Example 2:<br>
 
+
 Input: s = "111"<br>
 Output: 1000<br>
 Explanation: "111" is the binary representation of 7 and binary representation of 8 is "1000"<br>
