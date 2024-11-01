@@ -1,7 +1,5 @@
 [Problem Link](https://www.geeksforgeeks.org/problems/add-two-numbers-represented-by-linked-lists/1)<br>
-Given two decimal numbers, num1 and num2, represented by linked lists of size n and m respectively. The task is to return a linked list that represents the sum of these two numbers.<br>
-
-
+Given two decimal numbers, num1 and num2, represented by linked lists of size n and m respectively. The task is to return a linked list that represents the sum of these two numbers.<br>.
 
 
 For example, the number 190 will be represented by the    linked list, 1->9->0->null, similarly 25 by 2->5->null. Sum of these two numbers is 190 + 25 = 215, which will be represented by 2->1->5->null. You are required to return the head of the linked list 2->1->5->null.<br>
