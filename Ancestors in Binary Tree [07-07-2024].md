@@ -4,8 +4,6 @@ Given a Binary Tree and an integer target. Find all the ancestors of the given t
 Note:<br>
 
 
-
-
 The ancestor of node x is node y, which is at the upper level of node x, and x is directly connected with node y. Consider multiple levels of ancestors to solve this problem.<br>
 In case there are no ancestors available, return an empty list.<br>
 
