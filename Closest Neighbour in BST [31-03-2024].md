@@ -8,6 +8,7 @@ Input :
 n = 24<br>
 Output : 
 21<br>
+
 Explanation : The greatest element in the tree which 
               is less than or equal to 24, is 21. <br>
               (Searching will be like 5->12->21)<br>
